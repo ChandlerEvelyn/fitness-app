@@ -11,7 +11,14 @@ import SwiftUI
 struct livfitApp: App {
     var body: some Scene {
         WindowGroup {
-            FeedView()
+            MainTabView()
         }
+    }
+}
+
+
+struct livfitApp_Previews: PreviewProvider {
+    static var previews: some View {
+        MainTabView()
     }
 }
